@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
+		
+		<link rel="stylesheet" href="styles/mystyle.css"/>
+		<!--<link rel="stylesheet" href="styles/Signup.css"/> -->
+		<script type='text/javascript' src="javascript/signup.js" ></script> 		
+		<title> Social Diary</title>
+		<script type="text/javascript" ></script>
+	</head>
+	
+
+<body>
+
+	<div id="indexContainer">
+	
+		<div id="indexHeader">
+			<div id ="Title">
+				<h1>Social Diary</h1>
+			</div>
+			<form method="post" action="login.php">
+				<div id="emailBox">
+						<p>Already a member?</p>
+						<input type="text" size="30px" id="Email" name="Email" placeholder="Email" onclick="make_blank(this);" /> 
+					
+				</div>
+				<div id="passwordBox">
+					<input type="password" name="Password" size="30px" id="Password" placeholder="Password" onclick="make_blank(this);"/> 
+					
+				</div>
+				<div id="logIn">
+					<input type="submit" value="Log In">
+				</div>
+			</form>
+		</div>
+      
+		<div id="indexBody">
+			<div id="myCheckbox">
+				<input type="checkbox" disabled="disabled" value="None"id="myCheckbox" name="check" checked>
+				 <label for="check">Start your online diary today</label><br></br>
+				<input type="checkbox" disabled="disabled" value="None" id="myCheckbox" name="check" checked >
+				<label for="check">Build from your favourite social media profile</label><br></br>
+				<input type="checkbox" disabled="disabled" value="None" id="myCheckbox" name="check" checked >
+				<label for="check">Create personal memorabilla to share with your friends</label>
+			</div>
+			<p>Social Diary</p>
+			<div id="registerblock">
+				<form name="registeredblock">
+				   <input type="text" id="FirstName" size="30px" name="FirstName" placeholder="First name" onclick="make_blank(this);" /> <br></br>
+				   <input type="text" id="LastName" size="30px" name="LastName" placeholder="Last Name" onclick="make_blank(this);"/> <br></br>
+				   <input type="text" size="30px" id="Email" name="Email" placeholder="Email" onclick="make_blank(this);"/> <br></br>
+				   <input type="password" name="Password" size="30px" id="Password" placeholder="Password" onclick="make_blank(this);"/>
+				   <p>Birthday:</p>
+				   <form action="demo_form.asp">
+						<input type="date" name="DOB">
+					</form><br></br>
+				   <input type="radio" name="gender" id="genderRadioFemale" value="F"/> <label for="rad1">Female </label>
+				   <input type="radio" name="gender" id="genderRadioMale" value="M"/> <label for="rad1"> Male</label><br></br>
+					<button id="b2" type="button" class="button" onclick="Validate()" >Sign up</button> 
+					
+				</form>					
+			</div>
+			
+		</div>
+		<div id="indexFooter">
+			<div id="navbar">
+				
+					<ul>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">SUPPORT</a></li>
+						<li><a href="#">TERMS</a></li>
+						<li><a href="#">ADS</a></li>
+						<li><a href="#">CAREER</a></li>
+					</ul>
+				
+			</div>
+				<p>Copyright@ Social Diary Inc.</p>
+
+		</div>
+		
+	</div>
+	 
+</body>

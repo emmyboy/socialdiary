@@ -1,0 +1,32 @@
+#signupdetails
+{    height:610px;
+     width:730px;
+	 background-color:#738000;
+}
+
+#signinblock  /* div to ask for membership*/
+{
+     height:450px;
+	 width:300px;
+	 padding-top:150px;
+	 padding-left:30px;
+	 color:white;
+	 text-align:center;
+	 background-color:#738000;
+	 float:left;
+}
+
+#registerblock /* Div containing all the fields to Sign up*/
+{
+
+     height:550px;
+	 width:370px;
+	 padding-top:50px;
+	 padding-left:30px;
+	 color:white;
+	 text-align:center;
+	 float:right;
+	 background-color:#738000;
+}
+
+
