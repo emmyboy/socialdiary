@@ -1,19 +1,16 @@
 <?php
 
+require_once 'db.php';
+$db = new db();
+$con = $db->getConnection();
 
- require_once 'db.php';
-	 $Firstname = $_POST['FirstName'];
-	 $LastName = $_POST['LastName'];
-	 $Email=$_POST['Email'];
-	 $Password=$_POST['Password'];
-	 $DOB=$_POST['DOB'];
-	 $GenderChosen=$_POST['GenderChosen'];
-	 $today=date("Y-m-d H:i:s"); 
+	 $userName = $_POST['UserName'];
+	 $eMail=$_POST['Email'];
+	 $passWord=$_POST['Password'];
 	
-	 $db = new db();
-	 $con = $db->getConnection();
-	 $query="INSERT INTO social_diary_user(FirstName,LastName,Email,User_Password,DOB,Gender,SignupDate)
-	 VALUES ('$Firstname','$LastName','$Email','$Password','$DOB','$GenderChosen','$today')";
+	 $query="INSERT INTO logindb(username,email,password) VALUES ('$userName','$eMail','$passWord')";
+
+	//print "Welcome username!";
 
 	 $result = mysql_query($query);
 	 //error_log($result,1,"hello","hi");

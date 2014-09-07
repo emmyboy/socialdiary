@@ -4,9 +4,9 @@
 session_start();
 
 // Delete certain session
-unset($_SESSION['username']);
+unset($_SESSION['Email']);
 // Delete all session variables
-// session_destroy();
+session_destroy();
 
 // Jump to login page
 header('Location: index.html');

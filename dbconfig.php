@@ -1,6 +1,6 @@
 <?php
-define("DB_HOST", "127.0.0.1:3306");
-define("DB_USER", "root");
-define("DB_PASSWORD", "");
-define("DB_NAME", "social_diary");
+define("DB_HOST", "dbserver.engr.scu.edu:3306");
+define("DB_USER", "cegwuatu");
+define("DB_PASSWORD", "00000756216");
+define("DB_NAME", "sdb_cegwuatu");
 ?>

@@ -1,0 +1,3 @@
+Retrieving latest email registered
+mysql> select email from logindb ORDER BY userid DESC LIMIT 1;
+

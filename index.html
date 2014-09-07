@@ -24,12 +24,12 @@
 			</div>
 			<form method="post" action="login.php">
 				<div id="emailBox">
-						<p>Already a member?</p>
-						<input type="text" size="30px" id="Email" name="Email" placeholder="Email" onclick="make_blank(this);" /> 
+					<p>Already a member?</p>
+					<input type="text" size="28px" id="Email" name="Email" placeholder="Email" onclick="make_blank(this);" /> 
 					
 				</div>
 				<div id="passwordBox">
-					<input type="password" name="Password" size="30px" id="Password" placeholder="Password" onclick="make_blank(this);"/> 
+					<input type="password" name="Password" size="28px" id="Password" placeholder="Password" onclick="make_blank(this);"/> 
 					
 				</div>
 				<div id="logIn">
@@ -50,18 +50,10 @@
 			<p>Social Diary</p>
 			<div id="registerblock">
 				<form name="registeredblock">
-				   <input type="text" id="FirstName" size="30px" name="FirstName" placeholder="First name" onclick="make_blank(this);" /> <br></br>
-				   <input type="text" id="LastName" size="30px" name="LastName" placeholder="Last Name" onclick="make_blank(this);"/> <br></br>
-				   <input type="text" size="30px" id="Email" name="Email" placeholder="Email" onclick="make_blank(this);"/> <br></br>
-				   <input type="password" name="Password" size="30px" id="Password" placeholder="Password" onclick="make_blank(this);"/>
-				   <p>Birthday:</p>
-				   <form action="demo_form.asp">
-						<input type="date" name="DOB">
-					</form><br></br>
-				   <input type="radio" name="gender" id="genderRadioFemale" value="F"/> <label for="rad1">Female </label>
-				   <input type="radio" name="gender" id="genderRadioMale" value="M"/> <label for="rad1"> Male</label><br></br>
-					<button id="b2" type="button" class="button" onclick="Validate()" >Sign up</button> 
-					
+				   <input type="text" id="username" size="40px" name="UserName" placeholder="Username" onclick="make_blank(this);" /> <br></br>
+				   <input type="text" size="40px" id="Email" name="Email" placeholder="Email" onclick="make_blank(this);"/> <br></br>
+				   <input type="password" name="Password" size="40px" id="Password" placeholder="Password" onclick="make_blank(this);"/>
+				   <br></br><button id="b1" type="button" class="button" onclick="Validate()" >GET STARTED</button> 
 				</form>					
 			</div>
 			
@@ -72,16 +64,17 @@
 					<ul>
 						<li><a href="#">ABOUT</a></li>
 						<li><a href="#">SUPPORT</a></li>
-						<li><a href="#">TERMS</a></li>
+						<li><a href="terms.html">TERMS</a></li>
 						<li><a href="#">ADS</a></li>
 						<li><a href="#">CAREER</a></li>
 					</ul>
 				
 			</div>
-				<p>Copyright@ Social Diary Inc.</p>
+				<p>Copyright&copy; Social Diary Inc.</p>
 
 		</div>
 		
 	</div>
 	 
 </body>
+</html>
